@@ -1,0 +1,35 @@
+/* src/components/Weather.css */
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .search {
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+  }
+  
+  .weather {
+    text-align: center;
+  }
+  
+  .city {
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  .temp {
+    font-size: 48px;
+  }
+  
+  .description {
+    font-size: 24px;
+    text-transform: capitalize;
+  }
